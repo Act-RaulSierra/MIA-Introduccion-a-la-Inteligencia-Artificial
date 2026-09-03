@@ -1,0 +1,11 @@
+y=4  .    P    .    .
+y=3  .    .    W    .
+y=2  .    G    .    P
+y=1  A    .    .    .
+     x=1  x=2  x=3  x=4
+
+Leyenda:
+A = Agente 
+W = Wumpus 
+P = Pit / pozo 
+G = Oro / Gold 
