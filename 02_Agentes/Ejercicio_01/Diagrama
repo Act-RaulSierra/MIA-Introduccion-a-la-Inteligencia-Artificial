@@ -7,5 +7,5 @@ y=1  A    .    .    .
 Leyenda:
 A = Agente 
 W = Wumpus 
-P = Pit / pozo 
-G = Oro / Gold 
+P = Pit 
+G = Gold 
