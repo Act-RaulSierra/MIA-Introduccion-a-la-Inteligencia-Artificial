@@ -1,0 +1,33 @@
+{
+    "descripcion": "Conjunto de preguntas de evaluación para validación de precisión RAG y mecanismo de abstención.",
+    "preguntas": [
+        {
+            "id": 1,
+            "tipo": "en_dominio",
+            "pregunta": "¿Qué diferencias existen entre los protocolos TCP y UDP en la capa de transporte?",
+            "respuesta_esperada": "TCP ofrece control de errores, acuses de recibo (ACK) y retransmisión garantizando entrega confiable, mientras que UDP prioriza la baja latencia sin garantías de entrega.",
+            "fuente_esperada": "doc2_modelo_osi_tcpip.md"
+        },
+        {
+            "id": 2,
+            "tipo": "en_dominio",
+            "pregunta": "¿Cuál es la función del área 0 en el protocolo de enrutamiento OSPF?",
+            "respuesta_esperada": "El área 0 o área backbone en OSPF es obligatoria y conecta todas las demás áreas de la red jerárquica para evitar bucles e intercambiar rutas.",
+            "fuente_esperada": "doc3_protocolos_enrutamiento.txt"
+        },
+        {
+            "id": 3,
+            "tipo": "en_dominio",
+            "pregunta": "¿Cuáles son las 4 etapas del proceso de asignación de dirección IP en DHCP?",
+            "respuesta_esperada": "La secuencia DORA consta de cuatro etapas: Discover (Descubrimiento), Offer (Ofrecimiento), Request (Solicitud) y Acknowledge (Reconocimiento).",
+            "fuente_esperada": "doc5_dns_dhcp_servicios_red.txt"
+        },
+        {
+            "id": 4,
+            "tipo": "fuera_de_dominio",
+            "pregunta": "¿Cuál es la receta exacta y los ingredientes para preparar unos tacos al pastor al estilo mexicano?",
+            "respuesta_esperada": "No dispongo de suficiente información en el contexto provisto para responder a esta pregunta.",
+            "fuente_esperada": "Abstención obligatoria (answered=False)"
+        }
+    ]
+}

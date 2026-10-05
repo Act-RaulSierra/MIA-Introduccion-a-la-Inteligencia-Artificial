@@ -1,0 +1,7 @@
+Arquitectura de Redes y Fundamentos de Comunicación
+
+Una red de computadoras es un conjunto de nodos interconectados mediante medios físicos o inalámbricos que comparten recursos e información. La topología de una red define la disposición estructural de sus conexiones. Entre las topologías tradicionales destacan la topología en estrella, en bus, en anillo y en malla.
+
+En la topología en estrella, todos los dispositivos finales se conectan directamente a un nodo central, como un conmutador (switch) o un concentrador (hub). Esta arquitectura facilita la gestión y el aislamiento de fallos, ya que la caída de un cable individual no afecta al resto de los nodos de la red. Sin embargo, representa un punto único de fallo si el conmutador central deja de funcionar.
+
+La transmisión de datos se realiza a través de paquetes. Un paquete de datos consta de un encabezado con información de control (como direcciones IP de origen y destino) y la carga útil (payload). La conmutación de paquetes es la técnica fundamental utilizada en las redes modernas e Internet, permitiendo la división de mensajes en fragmentos independientes que viajan por rutas óptimas antes de ser reensamblados en el destino.

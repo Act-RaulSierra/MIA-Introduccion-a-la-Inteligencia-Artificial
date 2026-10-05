@@ -1,0 +1,14 @@
+Servicios Fundamentales de Infraestructura: DNS y DHCP
+
+El Sistema de Nombres de Dominio (DNS) es una base de datos distribuida y jerárquica que traduce nombres de dominio legibles por humanos (como ejemplo.com) en direcciones IP numéricas necesarias para el enrutamiento.
+
+Los servidores DNS operan en una arquitectura jerárquica compuesta por:
+- Servidores Raíz (Root Servers): Gestionan la cima de la jerarquía de dominios.
+- Servidores TLD (Top-Level Domain): Administran las extensiones de dominio como .com, .org, .net o dominios de país (.es, .mx).
+- Servidores Autoritativos: Almacenan los registros DNS oficiales (registros A, AAAA, CNAME, MX) para dominios específicos.
+
+El protocolo DHCP (Dynamic Host Configuration Protocol) automatiza la asignación de direcciones IP, máscaras de subred, puertas de enlace predeterminadas y servidores DNS a los dispositivos de una red. El proceso de asignación de DHCP sigue la secuencia DORA:
+1. Discover (Descubrimiento): El cliente envía un mensaje de difusión para localizar servidores DHCP.
+2. Offer (Ofrecimiento): El servidor responde con una propuesta de dirección IP.
+3. Request (Solicitud): El cliente solicita formalmente la dirección propuesta.
+4. Acknowledge (Reconocimiento): El servidor confirma la concesión (lease) de la IP.

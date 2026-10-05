@@ -1,0 +1,7 @@
+Protocolos de Enrutamiento Dinámico e Interconexión de Redes
+
+El enrutamiento es el proceso de seleccionar rutas en una red a través de las cuales se envía el tráfico. Los protocolos de enrutamiento se dividen en protocolos de Gateway Interior (IGP) y protocolos de Gateway Exterior (EGP).
+
+OSPF (Open Shortest Path First) es un protocolo IGP de estado de enlace ampliamente empleado en redes corporativas. Utiliza el algoritmo de Dijkstra para calcular el camino más corto hacia cada destino. OSPF divide la red en áreas jerárquicas para reducir la carga de procesamiento y la inundación de paquetes LSA (Link-State Advertisement). El área 0 o área backbone es obligatoria y conecta todas las demás áreas.
+
+BGP (Border Gateway Protocol) es el protocolo EGP estándar de la infraestructura global de Internet. BGP es un protocolo de vector de rutas (path vector) diseñado para intercambiar información de enrutamiento entre diferentes Sistemas Autónomos (AS). A diferencia de OSPF, BGP no prioriza exclusivamente la velocidad, sino las políticas administrativas y de tránsito entre los proveedores de servicios de Internet (ISP).
